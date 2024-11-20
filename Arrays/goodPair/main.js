@@ -1,7 +1,7 @@
 //param A : array of integers
 //param B : integer
 //return an integer
-function goodPair(A, B){
+function goodPair(A, B) {
     const n = A.length;
     let start = 0, end = n-1;
     let indexSet = new Set();
